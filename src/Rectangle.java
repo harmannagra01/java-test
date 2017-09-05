@@ -2,7 +2,7 @@ public class Rectangle {
   public int length;
   public int width;
 
-  public Rectanle(int length, int width) {
+  public void Rectanle(int length, int width) {
     this.length = length;
     this.width = width;
   }
