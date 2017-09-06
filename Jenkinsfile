@@ -9,7 +9,7 @@ pipeline {
 
     stage('Unit Tests') {
       steps {
-        sh 'id'
+        sh 'source ./.bash_profile'
         sh 'ant -f test.xml -v'
         junit 'reports/result.xml'
       }
